@@ -1,4 +1,4 @@
-# 4.-Post-Earnings-Announcement-Drift## Problem Overview  
+# 4.Post-Earnings-Announcement-Drift## Problem Overview  
 This assignment focuses on investigating the **Post Earnings Announcement Drift (PEAD)** phenomenon in China’s A-share markets. PEAD describes the tendency for a stock’s cumulative abnormal returns (CARs) to continue drifting in the same direction as earnings surprises revealed in announcements.  
 
 Using the event study framework introduced in the lectures, you will analyze whether PEAD exists in China’s A-share markets using interim (semi-annual) and annual earnings announcements from 2016 to 2023. The event window is defined as the 60 trading days before announcements to 60 trading days after announcements.  
@@ -88,11 +88,4 @@ Using the event study framework introduced in the lectures, you will analyze whe
 
 ---
 
-## Hints  
-1. This empirical design is based on **Foster, Olsen, and Shevlin (1984)** and **Bernard and Thomas (1989)**. Reviewing these papers may be helpful.  
-2. Use the **ending date of statistics** to identify the period covered by each EPS announcement.  
-3. Use the **announcement date** for when investors receive the earnings report.  
-4. Re-index trading records using the **event date index** (e.g., the event date index for the announcement date is 0).  
-5. Tools like **bysort** and **asrol** in Stata can help with repetitive calculations (e.g., deriving SUE).  
 
----
